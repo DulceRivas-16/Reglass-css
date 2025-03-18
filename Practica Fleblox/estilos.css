@@ -1,0 +1,60 @@
+.menu{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    background-color: rgb(244, 171, 195);
+    justify-content: space-around;
+    display: flex;
+}
+.menu .logo img{
+    width: 120px;
+}
+.menu .enlaces ul{
+    display: flex;
+    list-style: none;
+}
+.menu .enlaces ul li{
+    margin-right:10px ;
+}
+.menu .enlaces ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:deeppink;
+}
+.menu .botones button{
+    background-color:rgb(245, 105, 180);
+    color:rgb(255, 43, 156);
+    font-size: 20px;
+}
+#inicio{
+    width: 100%;
+    height: 600px;
+    
+}
+.slider{
+    position: relative;
+    width: 100%;  
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.slide{
+    flex: none;
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide img{
+    width: 100%;
+    height: auto;
+    margin-top: 500px;
+}
+#personajes{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(244, 171, 195);
+}

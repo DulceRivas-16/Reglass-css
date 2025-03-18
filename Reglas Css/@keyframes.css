@@ -1,0 +1,52 @@
+.topo1 , .topo2 , .topo3 , .topo4{
+    width: 40px;
+    height: 60px;
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    padding-top: 5px;
+    position: relative;
+     animation: carrera 3s ease; /*
+     empieza lento termina rapido*/
+}
+.topo2{
+    background-color: rgb(172, 212, 239);
+    animation: carrera 3s ease-in;
+}
+.topo3{
+    background-color: rgb(162, 104, 221);
+    animation: carrera 3s ease-out;
+}
+.topo4{
+    background-color: rgb(238, 137, 201);
+animation:  carrera 3s ease-in-out;
+}
+
+@keyframes carrera{
+    0%{margin-left: 0;}
+    100%{margin-left: 500px;}
+}
+/* @keyframes mover{
+    0%{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    25%{
+        margin-top: 0;
+        margin-left: 500px;
+    }
+    50%{
+       margin-left: 500px;
+       margin-top: 500px;
+    
+    }
+    75%{
+        margin-left: 500px; margin-top: 0px;
+    }
+    100%{
+        margin-left: 0;
+        margin-top: 0;
+    } */
+}
